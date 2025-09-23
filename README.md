@@ -77,17 +77,17 @@ docker push debpdhs/practica3_grupo2:v1
 
 ### PASO 9: Iniciar sessión en GitHub y crear repositorio
 
-<img width="909" height="791" alt="Crear repositorio GitHub" src="https://github.com/user-attachments/assets/c3251ee3-1a85-4bab-b553-c938fcc098c1" />
+<img width="909" height="791" alt="Crear repositorio GitHub" src="https://github.com/user-attachments/assets/cae5c798-a1a8-4bd0-a82c-c45e44247b0b" />
 
-### PASO 9: El repositorio debe contener los siguientes archivos
+### PASO 10: El repositorio debe contener los siguientes archivos
 
-<img width="222" height="185" alt="structura fastapi" src="https://github.com/user-attachments/assets/1613fcad-19fd-4b3a-adfe-088c9fec9182" />
+<img width="222" height="185" alt="structura fastapi" src="https://github.com/user-attachments/assets/74615d19-56fb-4484-80b7-04aeeeeb541d" />
 
-### PASO 10: Ingresar al siguiente directorio
+### PASO 11: Ingresar al siguiente directorio
 
 - Setting/secrets and variables/Actions
 
-### PASO 11. Crear las variables con las credenciales deL DockerHub
+### PASO 12. Crear las variables con las credenciales deL DockerHub
 
 ```bash
 DOCKERHUB_USERNAME
@@ -96,9 +96,9 @@ DOCKERHUB_TOKEN
 
 **Salida Esperada**
 
-<img width="1197" height="774" alt="secrets and varibles" src="https://github.com/user-attachments/assets/ed654656-0c58-458f-a643-62bb0fca9e69" />
+<img width="1197" height="774" alt="secrets and varibles" src="https://github.com/user-attachments/assets/591ee230-2168-410b-a152-78514c5e7df6" />
 
-### PASO 12: Ingresar al siguiente directorio
+### PASO 13: Ingresar al siguiente directorio
 
 - Action/Docker image/ Configure
 
@@ -107,12 +107,12 @@ DOCKERHUB_TOKEN
 <img width="1170" height="558" alt="Docker images configure" src="https://github.com/user-attachments/assets/5517d68b-5aae-416e-ac3e-4457281e8391" />
 
 
-### PASO 13: Reemplazar el contenido del workflows actual por el contenido del archivo fastapi.ylm
+### PASO 14: Reemplazar el contenido del workflows actual por el contenido del archivo fastapi.ylm
 
 - Modificar el parametro IMAGE_NAME con el usuario del DockerHub + el nombre del repositorio.
 
 ```bash
-IMAGE_NAME: ltuguminago/fastapi-app
+IMAGE_NAME: debpdhs/practica3_grupo2
 ```
 
 - Modificar el parametro push con el valor de true, para que la imagen suba al DockerHub
@@ -123,27 +123,27 @@ push: true
 
 - Guardar el archivo con el nombre "scout.yml"
 
-<img width="893" height="1070" alt="workflows" src="https://github.com/user-attachments/assets/b983d468-f1e5-4488-b8ed-f765a9a69fe8" />
+<img width="893" height="1070" alt="workflows" src="https://github.com/user-attachments/assets/8e12e8d3-d668-4635-a259-c8af58a468d4" />
 
-### PASO 14: Ingresar al siguiente directorio "Action", para ver ejecutandose el workflows.
+### PASO 15: Ingresar al siguiente directorio "Action", para ver ejecutandose el workflows.
 
 
 <img width="1221" height="488" alt="Captura de pantalla de 2025-09-21 14-29-17" src="https://github.com/user-attachments/assets/52cade66-e26a-4a23-9afe-0157a406a816" />
 
 
-### PASO 15: Ingresar al build-and-analyze
+### PASO 16: Ingresar al build-and-analyze
 
 <img width="1214" height="1210" alt="Captura de pantalla de 2025-09-21 14-30-30" src="https://github.com/user-attachments/assets/364820c2-fdb8-419f-9639-fa7b52d2cf1e" />
 
-### PASO 16: Terminada la ejecución workflows, finalmente se puede revisar el reporte docker-scout-report, descargando el archivo.
+### PASO 17: Terminada la ejecución workflows, finalmente se puede revisar el reporte docker-scout-report, descargando el archivo.
 
 <img width="878" height="1159" alt="Captura de pantalla de 2025-09-21 14-31-30" src="https://github.com/user-attachments/assets/b5836229-d717-4ec9-8ada-08c921f327ee" />
 
-## PASO 17. Visualizar el reporte
+## PASO 18. Visualizar el reporte
 
 <img width="664" height="183" alt="Captura de pantalla de 2025-09-21 14-32-17" src="https://github.com/user-attachments/assets/8297cf96-6ce2-44e4-b294-4dcbb2b1e556" />
 
-## PASO 18. Revisar en DockerHub, la imagen subida.
+## PASO 19. Revisar en DockerHub, la imagen subida.
 
 <img width="962" height="744" alt="Captura de pantalla de 2025-09-21 14-46-32" src="https://github.com/user-attachments/assets/7724459b-02aa-4bd7-a5fa-25c56670a7b4" />
 
