@@ -39,7 +39,7 @@ docker build -t hello-multistage -f Dockerfile .
 
 **Salida Esperada**
 
-<img width="1236" height="475" alt="Construccion imagen multi-stage" src="https://github.com/user-attachments/assets/0ccd88dc-5adc-4e90-a61d-82aff8a19829" />
+<img width="1236" height="475" alt="Construccion imagen multi-stage" src="https://github.com/user-attachments/assets/ad7c3ee3-76ed-4a40-9680-2ec1ebc7c3e3" />
 
 ### PASO 5: Revisamos la imagen construida
 
@@ -49,17 +49,17 @@ docker images
 
 **Salida Esperada**
 
-<img width="547" height="58" alt="images" src="https://github.com/user-attachments/assets/d277c838-60b0-40a9-8d57-48fa83a9fe12" />
+<img width="547" height="58" alt="images" src="https://github.com/user-attachments/assets/827a6bb6-9f72-4c07-8099-1097059f74f0" />
 
 ### PASO 6: Tagear la imagen "usuario_DockerHub/repositorio"
 
 ```bash
-docker tag hello-multistage:latest ltuguminago/fastapi-app:v1
+docker tag hello-multistage:latest debpdhs/practica3_grupo2:v1
 ```
 
 **Salida Esperada**
 
-<img width="812" height="176" alt="Tager imagen" src="https://github.com/user-attachments/assets/e0156856-66c7-4d47-8304-3d0b9b8264de" />
+<img width="812" height="176" alt="Tager imagen" src="https://github.com/user-attachments/assets/d34cbabc-f693-4cf3-8b10-f02f3656c7e8" />
 
 ### PASO 7: Subir imagen al DockerHub
 
