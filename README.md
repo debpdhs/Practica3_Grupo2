@@ -15,22 +15,21 @@ Con base en el laboratorio de fastapi-app, deberan subir la imagen que le corres
 
 ### PASO 1: 📂 Estructura de Archivos
 
-<img width="222" height="185" alt="structura fastapi" src="https://github.com/user-attachments/assets/9e959e1b-bfc3-4a77-b489-b578ade1ac24" />
-
+<img width="222" height="185" alt="structura fastapi" src="https://github.com/user-attachments/assets/329d6d04-8b21-431d-94f7-4371d3b6726f" />
 
 ### PASO 2: Iniciar sessión en DockerHub y crear repositorio
 
-<img width="946" height="553" alt="Crear repositorio DockerHub" src="https://github.com/user-attachments/assets/38ceed27-051c-4595-9506-e0a57ea78ddf" />
+<img width="946" height="553" alt="Crear repositorio DockerHub" src="https://github.com/user-attachments/assets/e7c99a3e-eac1-4578-bf41-1e967b461561" />
 
 ### PASO 3: En la termina, iniciar sessión con las credenciales de DockerHub
 
 ```bash
-docker login -u ltuguminago
+docker login -u debpdhs
 ```
 
 **Salida Esperada**
 
-<img width="740" height="178" alt="Iniciar session en terminal DockerHub" src="https://github.com/user-attachments/assets/ae2b8967-a48c-4e87-ba05-63ef1d185a2d" />
+<img width="740" height="178" alt="Iniciar session en terminal DockerHub" src="https://github.com/user-attachments/assets/7824cd37-2cdc-4cb5-9ebd-3e16444f217a" />
 
 ### PASO 4: Construir imagen de Docker MultiStage
 
