@@ -64,16 +64,16 @@ docker tag hello-multistage:latest debpdhs/practica3_grupo2:v1
 ### PASO 7: Subir imagen al DockerHub
 
 ```bash
-docker push ltuguminago/fastapi-app:v1
+docker push debpdhs/practica3_grupo2:v1
 ```
 
 **Salida Esperada**
 
-<img width="786" height="231" alt="subir imagen al dockerHub" src="https://github.com/user-attachments/assets/f133972b-e90d-42d7-94b5-0585c47829d4" />
+<img width="786" height="231" alt="subir imagen al dockerHub" src="https://github.com/user-attachments/assets/5c8ef21b-498d-4db8-99fb-335682a2f519" />
 
 ### PASO 8: Revizar la imagen subida en el repositorio de DockerHub
 
-<img width="924" height="681" alt="revisamos imagen subida en el dockerhub" src="https://github.com/user-attachments/assets/8ba65d1e-c85d-47f0-a5b7-266be99fd76f" />
+<img width="924" height="681" alt="revisamos imagen subida en el dockerhub" src="https://github.com/user-attachments/assets/bb095bc5-71a9-4f64-ac28-3efd485e064a" />
 
 ### PASO 9: Iniciar sessión en GitHub y crear repositorio
 
