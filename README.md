@@ -122,13 +122,12 @@ push: true
 ```
 
 - Guardar el archivo con el nombre "scout.yml"
-![12]()
 
 <img width="893" height="1070" alt="workflows" src="https://github.com/user-attachments/assets/966c2d9f-aa3f-401b-b0d4-21458227c80b" />
 
 ### PASO 15: Ingresar al siguiente directorio "Action", para ver ejecutandose el workflows.
 
-<img width="1221" height="488" alt="Captura de pantalla de 2025-09-21 14-29-17" src="https://github.com/user-attachments/assets/52cade66-e26a-4a23-9afe-0157a406a816" />
+<img width="1221" height="488" alt="Captura de pantalla de 2025-09-21 14-29-17" src="ttps://github.com/user-attachments/assets/6470685e-cff3-484a-8156-e32f4a42f361" />
 
 ### PASO 16: Ingresar al build-and-analyze
 
@@ -144,7 +143,7 @@ push: true
 
 ## PASO 19. Revisar en DockerHub, la imagen subida.
 
-<img width="962" height="744" alt="Captura de pantalla de 2025-09-21 14-46-32" src="https://github.com/user-attachments/assets/7724459b-02aa-4bd7-a5fa-25c56670a7b4" />
+<img width="962" height="744" alt="Captura de pantalla de 2025-09-21 14-46-32" src="https://github.com/user-attachments/assets/6a3233c8-b6dd-4c36-a5aa-3e17cf659080" />
 
 
 # 3. Conclusiones
